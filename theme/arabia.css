@@ -1,32 +1,12 @@
 @include-when-export url(https://fonts.loli.net/css?family=Amiri:400italic,700italic,700,400&subset=latin,latin-ext);
 
 @font-face {
-    font-family: 'Amiri';
+    font-family: 'Lateef';
     font-style: normal;
     font-weight: normal;
-    src: local('Amiri Regular'),url('./arabia/100.ttf') format('tff');
+    src: local('Lateef Regular'),url('./arabia/Lateef.ttf') format('tff');
 }
 
-@font-face {
-    font-family: 'Amiri';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Amiri Bold'),url('./arabia/200.ttf') format('tff');
-}
-
-@font-face {
-    font-family: 'Amiri';
-    font-style: normal;
-    font-weight: italic;
-    src: local('Amiri Italic'),url('./arabia/300.ttf') format('tff');
-}
-
-@font-face {
-    font-family: 'Amiri';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Amiri Bold Italic'),url('./arabia/400.ttf') format('tff');
-}
 
 :root {
     --side-bar-bg-color: #eeeeee;
@@ -37,19 +17,21 @@
 
 #write {
     direction: rtl;
+    text-align: right;
 }
 
-
+Amiri
 
 html {
-    font-size: 20px;
+    font-size: 24px;
     text-align: right;
 }
 
 body {
-    font-family: "Amiri";
+    font-family: "Lateef";
     color: rgb(51, 51, 51);
-    line-height: 1.9;
+    line-height: 1.6;
+    font-size: 1.64em;
 }
 
 #write {
@@ -62,7 +44,7 @@ body {
 
 @media only screen and (min-width: 1400px) {
 	#write {
-		max-width: 800px;
+		max-width: 900px;
 	}
 }
 
@@ -82,10 +64,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    background-color: #BE6C3D;
-    color: white;
-    border-radius: 3px;
-    padding: 2px;
+    text-decoration: underline;
 }
 h1,
 h2,
@@ -207,10 +186,10 @@ ol:first-child {
 ul:last-child,
 ol:last-child {
     margin-bottom: 0;
-}
+} 
 blockquote {
-    border-left: 4px solid #dfe2e5;
-    padding: 0 15px;
+    border-right: 4px solid #BE6C3D;
+    padding: 0 25px;
     color: #777777;
 }
 blockquote blockquote {
