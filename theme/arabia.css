@@ -27,6 +27,11 @@ html {
     text-align: right;
 }
 
+::selection {
+    color: white;
+    background: black;
+  }
+
 body {
     font-family: "Lateef";
     color: rgb(51, 51, 51);
