@@ -251,9 +251,13 @@ tt {
     border-radius: 3px;
     padding: 0;
     padding: 2px 4px 0px 4px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
+.md-fences,
+code {
+direction: ltr;
+}
 code {
     background-color: #f3f4f4;
     padding: 0 2px 0 2px;
