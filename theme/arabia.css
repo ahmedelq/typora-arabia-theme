@@ -164,6 +164,7 @@ li>ol,
 li>ul {
     margin: 0 0;
 }
+
 hr {
     height: 2px;
     padding: 0;
@@ -251,9 +252,13 @@ tt {
 }
 
 .md-fences,
+.mathjax-block,
+.md-inline-math,
+.math,
 code {
 direction: ltr;
 }
+
 
 .md-fences {
     margin-bottom: 15px;
@@ -430,4 +435,20 @@ sup.md-footnote {
     color: #555;
     border-radius: 4px;
     overflow: hidden;
+}
+
+
+.md-inline-math,
+.math-jax-postprocess,
+.md-mathjax {
+    direction:ltr !important;
+    text-align: left;
+    font-size: 0.8em;
+}
+.math-jax-postprocess > .md-meta {
+    color:#BE6C3D;
+}
+
+.md-inline-math.md-expand {
+    font-size: 1.2em;
 }
