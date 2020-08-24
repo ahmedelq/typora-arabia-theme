@@ -290,11 +290,15 @@ direction: ltr;
 	padding: 1rem;
     font-size: 85%;
     line-height: 1.6;
-    background-color: #f7f7f7;
-    border: 0;
-    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #555;
+    border-radius: 1px;
     color: #777777;
     margin-top: 0 !important;
+    margin-bottom: 50px;
+    direction: ltr;
+    text-align: left;
+    font-family: inherit;
 }
 
 .mathjax-block>.code-tooltip {
@@ -416,16 +420,10 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 #write pre.md-meta-block:empty:before {
-    color: #999;
     content: "ضع محتوى يامل التمهيدي هنا";
 }
 
-#write pre.md-meta-block {
-    direction: ltr;
-    text-align: left;
-    font-family: inherit;
-    background-color: #f8f9fa;
-}
+
 
 sup.md-footnote {
     padding: 2px;
@@ -452,3 +450,4 @@ sup.md-footnote {
 .md-inline-math.md-expand {
     font-size: 1.2em;
 }
+
