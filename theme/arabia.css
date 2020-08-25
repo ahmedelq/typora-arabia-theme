@@ -261,10 +261,12 @@ direction: ltr;
 
 
 .md-fences {
+    border: 1px solid #555;
     margin-bottom: 15px;
     margin-top: 15px;
     padding-top: 8px;
     padding-bottom: 6px;
+    font-size: 0.8em;
 }
 
 
@@ -291,8 +293,7 @@ direction: ltr;
     font-size: 85%;
     line-height: 1.6;
     background-color: white;
-    border: 1px solid #555;
-    border-radius: 1px;
+    border-bottom: 1px dashed #555;
     color: #777777;
     margin-top: 0 !important;
     margin-bottom: 50px;
