@@ -7,6 +7,10 @@
     src: local('Droid Arabic Naskh Regular'),url('./arabia/101.ttf');
 }
 
+
+
+
+
 :root {
     --side-bar-bg-color: #eeeeee;
     --control-text-color: #777;
@@ -258,7 +262,11 @@ tt {
 code {
 direction: ltr;
 }
-
+mark {
+    background-color: #ffe37a;
+    padding: 0px 3px;
+    border-radius: 1px;
+}
 
 .md-fences {
     border: 1px solid #555;
