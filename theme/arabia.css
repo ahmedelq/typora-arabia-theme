@@ -1,5 +1,5 @@
-/*@include-when-export url(https://fonts.loli.net/css?family=Amiri:400italic,700italic,700,400&subset=latin,latin-ext);
-*/
+@include-when-export url(https://fonts.loli.net/css?family=Droid Arabic Naskh:400italic,700italic,700,400&subset=latin,latin-ext);
+
 @font-face {
     font-family: 'Droid Arabic Naskh';
     font-style: normal;
@@ -30,7 +30,8 @@ html {
 }
 
 ::selection {
-    background: #fcd5ce;
+    background: #222;
+    color:#fff;
   }
 
 body {
@@ -278,10 +279,6 @@ mark {
 }
 
 
-.md-task-list-item > input {
-  margin-left: -1.3em;
-}
-
 @media print {
     html {
         font-size: 13px;
@@ -460,3 +457,51 @@ sup.md-footnote {
     font-size: 1.2em;
 }
 
+.md-task-list-item > p {
+    margin-right: 25px;
+}
+
+
+
+.md-task-list-item > input {
+    -webkit-appearance: none;
+    display: block;
+    height: 1.2rem !important;
+    width: 1.2rem !important;
+    position: absolute;
+    right: 0px;
+}
+
+.md-task-list-item.task-list-done > p {
+    color: #777;
+    text-decoration: line-through;
+  }
+
+
+.md-task-list-item > input:checked:before,
+.md-task-list-item > input[checked]:before {
+    content: '✓';
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    text-indent: -0.0rem;
+    color: white;
+    background-color: #606c38;
+}
+
+.md-task-list-item > input:before {
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid #283618;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+
+}
+ 
+.md-task-list-item > input:hover:before {
+    background:#81b29a;
+}
+
+  
+ 
