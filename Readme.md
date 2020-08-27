@@ -4,7 +4,7 @@
 
 ## Screenshots 📸
 
-![1](/home/didnus/Documents/wk/opensource/arabia/screenshots/1.png)
+![1](./screenshots/1.png)
 
 
 
