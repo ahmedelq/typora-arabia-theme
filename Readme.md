@@ -24,3 +24,7 @@
 
 Tested only on Linux, open an issue for any inconsistency. 
 
+## TODO 📝
+
+- [ ] Make a dark theme.
+- [ ] Find a better font.
