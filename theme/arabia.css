@@ -444,7 +444,9 @@ sup.md-footnote {
 
 .md-inline-math,
 .math-jax-postprocess,
-.md-mathjax {
+.md-mathjax,
+.mathjax-block
+ {
     direction:ltr !important;
     text-align: left;
     font-size: 0.8em;
